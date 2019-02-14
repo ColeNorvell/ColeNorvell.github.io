@@ -6,7 +6,7 @@
   .comic {font-family: "comic sans ms"}
 
 </style>
-<style> h1{text-align:center} h2{text-align:right} .comic {font-family:"comic sans ms", cursive, sans-serif;} .impact {font-family:impact, charcoal, sans-serif} </style> </head>
+<style> h1{text-align:center} h2{text-align:right} .comic {font-family:"comic sans ms", sans-serif;} .impact {font-family:impact, charcoal, sans-serif} </style> </head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
@@ -217,7 +217,7 @@ function checkForWinner() {
     } else if (place[2] == "X" && place[5] == "X" && place[8] == "X") {
         alert("You win!");
         changeBackgroundWin();
-        return true;
+        return true; 
     } else if (place[3] == "X" && place[6] == "X" && place[9] == "X") {
         alert("You win!");
         changeBackgroundWin();
