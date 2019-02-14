@@ -127,7 +127,6 @@ function selectPlaceOnBoard(param1, param2) {
                 } else if (place[3] == "O" && place[5] == "O" && place[7] == "Z") {
                     computerMove = 7;
                 } else {
-                    // NOTE: BUG IS IN HERE SOMEWHERE!
                     if (place[1] == "Z" && place[2] == "X" && place[3] == "X") {
                         computerMove = 1;
                     } else if (place[1] == "X" && place[2] == "Z" && place[3] == "X") {
@@ -267,6 +266,7 @@ function checkForWinner() {
         return false;
     }
 }
+
 </script>
 <br>
 <footer>
